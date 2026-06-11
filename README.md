@@ -16,7 +16,7 @@ Após reiniciar o terminal, pode usar os seguintes comandos:
 | Comando | Função |
 | :--- | :--- |
 | `ytmp4 "URL"` | Download de vídeo (MP4) |
-| `ytmp4_ck "URL"` | Download de vídeo (com Cookies/Login) |
+| `ytmp4_ck "URL"` | Download de vídeo (com Cookies) |
 | `ytmp3_320 "URL"` | Áudio Alta Qualidade (320kbps) |
 | `ytmp3_320_ck "URL"` | Áudio Alta Qualidade (com Cookies) |
 | `ytmp3_128 "URL"` | Áudio Economia de Espaço (128kbps) |
