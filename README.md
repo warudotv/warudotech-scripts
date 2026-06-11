@@ -1,5 +1,6 @@
-# warudotech-scripts
-Script de automação para instalação do `yt-dlp` e `FFmpeg` no Windows. Esqueça sites de download perigosos; utilize uma solução profissional, segura e open-source.
+# WarudoTech Scripts 🚀
+
+Script de automação para instalação e configuração do `yt-dlp` e `FFmpeg` no Windows. Esqueça sites de download perigosos; utilize uma solução profissional, segura e totalmente open-source.
 
 ## 🛠 Como Instalar
 
@@ -8,50 +9,33 @@ Script de automação para instalação do `yt-dlp` e `FFmpeg` no Windows. Esque
 3. Clique com o botão direito no ficheiro `setup.ps1` e escolha **"Executar com PowerShell"**.
 4. Aguarde a conclusão e **reinicie o seu terminal (PowerShell)**.
 
----
-
 ## 📋 Comandos Disponíveis
 
-Após reiniciar o terminal, pode usar os seguintes comandos diretamente em qualquer pasta:
-ytmp4_ck "LINK_DO_VIDEO"
-### 🎥 Para Vídeos
-* **Download Padrão:**
-```powershell
-ytmp4 "LINK_DO_VIDEO"
-```
-* **Com Cookies (Evita restrições e bloqueios):**
-```powershell
-ytmp4_ck "LINK_DO_VIDEO"
-```
-### 🎵 Para Música (Alta Qualidade - 320kbps)
-* **Download Padrão:**
-```powershell
-ytmp3_320 "LINK_DO_VIDEO"
-```
-* **Com Cookies (Evita restrições e bloqueios):**
-```powershell
-ytmp3_320_ck "LINK_DO_VIDEO"
-```
-📉🎵 Para Música (Economia de Espaço - 128kbps)
-* **Download Padrão:**
-```powershell
-ytmp3_128 "LINK_DO_VIDEO"
-```
-* **Com Cookies (Evita restrições e bloqueios):**
-```powershell
-ytmp3_128_ck "LINK_DO_VIDEO"
-```
+Após reiniciar o terminal, pode usar os seguintes comandos:
+
+| Comando | Função |
+| :--- | :--- |
+| `ytmp4 "URL"` | Download de vídeo (MP4) |
+| `ytmp4_ck "URL"` | Download de vídeo (com Cookies/Login) |
+| `ytmp3_320 "URL"` | Áudio Alta Qualidade (320kbps) |
+| `ytmp3_320_ck "URL"` | Áudio Alta Qualidade (com Cookies) |
+| `ytmp3_128 "URL"` | Áudio Economia de Espaço (128kbps) |
+| `ytmp3_128_ck "URL"` | Áudio Economia de Espaço (com Cookies) |
+
+> **⚠️ Aviso:** Os comandos com sufixo `_ck` utilizam os cookies do seu navegador (Firefox) para contornar restrições de idade ou conteúdo privado. Mantenha o navegador fechado ao usar esses comandos.
+
+## 🗑️ Como Remover (Desinstalar)
+
+Caso deseje remover as automações do seu sistema:
+
+1. Baixe o ficheiro `remover_setup.ps1` deste repositório.
+2. Clique com o botão direito no ficheiro e escolha **"Executar com PowerShell"**.
+3. Siga as instruções na tela e reinicie o seu terminal.
+
 ## 🛡️ Segurança e Transparência
+- **Origem:** Utiliza o `winget` (gestor oficial da Microsoft).
+- **Sem Adware:** Não instalamos software de terceiros.
+- **Transparência:** O código é 100% aberto. Pode verificar cada linha antes de executar.
 
-Origem Oficial: O script utiliza o winget (gestor de pacotes oficial da Microsoft).
-
-Sem Anúncios: Não instalamos adwares ou software de terceiros.
-
-Transparência: O código é aberto. Pode verificar cada linha no ficheiro setup.ps1 antes de executar.
-
-Nota: Para os comandos com _ck (cookies), certifique-se de que o navegador correspondente está fechado antes de executar o comando no terminal.
-
-Desenvolvido com foco em produtividade e segurança.
-
-Siga-me no TikTok para mais dicas: @warudotech
 ---
+*Desenvolvido por @warudotv | Siga-me no TikTok: @warudotech*
