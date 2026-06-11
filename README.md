@@ -42,9 +42,15 @@ ytmp3_128 "LINK_DO_VIDEO"
 ytmp3_128_ck "LINK_DO_VIDEO"
 ```
 🛡️ Segurança e Transparência
+
 Origem Oficial: O script utiliza o winget (gestor de pacotes oficial da Microsoft).
+
 Sem Anúncios: Não instalamos adwares ou software de terceiros.
+
 Transparência: O código é aberto. Pode verificar cada linha no ficheiro setup.ps1 antes de executar.
+
 Nota: Para os comandos com _ck (cookies), certifique-se de que o navegador correspondente está fechado antes de executar o comando no terminal.
+
 Desenvolvido com foco em produtividade e segurança.
+
 Siga-me no TikTok para mais dicas: @warudotech
