@@ -41,7 +41,7 @@ ytmp3_128 "LINK_DO_VIDEO"
 ```powershell
 ytmp3_128_ck "LINK_DO_VIDEO"
 ```
-🛡️ Segurança e Transparência
+## 🛡️ Segurança e Transparência
 
 Origem Oficial: O script utiliza o winget (gestor de pacotes oficial da Microsoft).
 
@@ -54,3 +54,4 @@ Nota: Para os comandos com _ck (cookies), certifique-se de que o navegador corre
 Desenvolvido com foco em produtividade e segurança.
 
 Siga-me no TikTok para mais dicas: @warudotech
+---
