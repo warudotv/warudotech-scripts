@@ -26,7 +26,7 @@ Write-Host "--- AVISO IMPORTANTE ---" -ForegroundColor Red
 Write-Host " Vídeos com restrição de idade Ou o conteúdos Privados precisam de autenticação!"
 Write-Host "Certifique-se usar '_ck' (que utilizam Cookies do Firefox) para baixar esse tipo de Conteúdo!"
 Write-Host " Caso contrário, o download irá falhar." -ForegroundColor Red
-Read-Host "Pressione ENTER para Concluir!"
+Read-Host "Pressione ENTER para Concluir a Configuração do Perfil!"
 
 Write-Host "Configurando o seu perfil do PowerShell..." -ForegroundColor Cyan
 Start-Sleep -Seconds 3
