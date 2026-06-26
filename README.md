@@ -1,6 +1,6 @@
 # WarudoTech Scripts 🚀
 
-Script de automação para instalação e configuração do `yt-dlp` e `FFmpeg` no Windows. Esqueça sites de download perigosos; utilize uma solução profissional, segura e totalmente open-source.
+Script de automação para instalação e configuração do `yt-dlp` no Windows. Esqueça sites de download perigosos; utilize uma solução profissional, segura e totalmente open-source.
 
 ## 🛠 Como Instalar
 
